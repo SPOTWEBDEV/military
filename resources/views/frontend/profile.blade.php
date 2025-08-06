@@ -125,7 +125,7 @@
                 <form>
                     <div class="cont">
                         <header>
-                            <h1>Bundeswehr Army</h1>
+                            <h1>German Defense And Military Job Portal Army</h1>
                             <h4>Personal Information</h4>
                         </header>
                         <div class="box fst">

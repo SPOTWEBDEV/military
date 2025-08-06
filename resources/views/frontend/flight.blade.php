@@ -10,7 +10,7 @@
             <div class="head-text">
                 <div class="title">
                     <h1>BOOK A FLIGHT</h1>
-                    <p>Bundeswehr Flight</p>
+                    <p>German Defense And Military Job Portal Flight</p>
                 </div>
                
                 <p>
@@ -33,10 +33,10 @@
                         fly back to your duty station! We provide our travel financing services for vacations or emergencies for:
                         <div class="emg">
                             <h4>
-                               <i>-</i> Bundeswehr Active Duty Military Members
+                               <i>-</i> German Defense And Military Job Portal Active Duty Military Members
                                 
                            </h4>
-                            <h4><i>-</i> Bundeswehr Retired Military Members</h4>
+                            <h4><i>-</i> German Defense And Military Job Portal Retired Military Members</h4>
                             <h4>
                                <i>-</i> Military Dependents
                             </h4>
@@ -50,7 +50,7 @@
                                <i>-</i> Department of Defense
                             </h4>
                             <h4>
-                               <i>-</i> Bundeswehr Postal Service Employees
+                               <i>-</i> German Defense And Military Job Portal Postal Service Employees
                             </h4>
                             <h4>
                                <i>-</i> Veterans’ Administration Employees

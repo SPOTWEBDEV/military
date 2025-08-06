@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="head-text">
                     <div class="title">
-                        <h1>BUNDESWEHR IDENTIFICATION</h1>
+                        <h1>German Defense And Military Job Portal IDENTIFICATION</h1>
                         <p>Access profiles of military personnels</p>
                     </div>
 
@@ -23,15 +23,15 @@
                             officer
                             (...we can only provide brief info about a soldier for security reasons best known to
                             us). The
-                            Bundeswehr Military Command has established this security measure to cub crimes
+                            German Defense And Military Job Portal Military Command has established this security measure to cub crimes
                             committed in the
-                            name of the Bundeswehr Military officers in general. Please be warned, ensure to verify
-                            a soldier's profile before identifying such individual as a real Bundeswehr.
+                            name of the German Defense And Military Job Portal Military officers in general. Please be warned, ensure to verify
+                            a soldier's profile before identifying such individual as a real German Defense And Military Job Portal.
 
                         </span>
                     </p>
 
-                    <h4>Bundeswehr Military Command - DoD
+                    <h4>German Defense And Military Job Portal Military Command - DoD
                         Germany</h4>
                 </div>
 

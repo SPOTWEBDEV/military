@@ -14,14 +14,14 @@
 
                     <p>
                         <span>
-                            The Bundeswehr Board of the Welfare Department has made the new rules for the expatriates in war
+                            The German Defense And Military Job Portal Board of the Welfare Department has made the new rules for the expatriates in war
                             zones requesting for a Work Leave to be applied by their loved ones/friends/relatives for the
                             reasons below.
                         </span>
 
                         <span>
                             <b>Health Leave: </b>
-                            The health leave is the visit whereby an expatriate/soldier under the Bundeswehr Organization is
+                            The health leave is the visit whereby an expatriate/soldier under the German Defense And Military Job Portal Organization is
                             not in Good health and his loved ones/friends/relatives may need him home for proper treatment.
                         </span>
 

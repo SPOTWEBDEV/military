@@ -7,10 +7,10 @@
         <section class="hero">
             <div class="text">
                 <h1>
-                    Bundeswehr Identification
+                    German Defense And Military Job Portal Identification
                 </h1>
                 <p>
-                    In this international disaster assistance, the Bundeswehr cooperates closely with governmental and
+                    In this international disaster assistance, the German Defense And Military Job Portal cooperates closely with governmental and
                     non-governmental partners and relief organisations.
 
 
@@ -59,7 +59,7 @@
                     <p>
                         German military personnel are dedicated to providing essential support both domestically and internationally. 
                         Their services range from humanitarian aid in disaster-stricken regions, peacekeeping missions, and providing 
-                        relief during epidemics to ensuring security and stability in crisis areas worldwide. The Bundeswehr works closely 
+                        relief during epidemics to ensuring security and stability in crisis areas worldwide. The German Defense And Military Job Portal works closely 
                         with government organizations, non-governmental partners, and relief agencies, offering specialized expertise 
                         in areas such as medical assistance, infrastructure rebuilding, and logistical support, all with a commitment to 
                         safeguarding human life and upholding peace.
@@ -108,14 +108,14 @@
                 </div>
                 <div class="text">
                     <div class="title">
-                        <span>Bundeswehr</span>
-                        <h1>Mission and Tasks of the Bundeswehr</h1>
+                        <span>German Defense And Military Job Portal</span>
+                        <h1>Mission and Tasks of the German Defense And Military Job Portal</h1>
                     </div>
 
                     <p>
                         German military personnel provide relief worldwide when people are in need due to natural disasters,
                         serious accidents or epidemics. In this international disaster assistance,
-                        the Bundeswehr cooperates closely with governmental and non-governmental partners and relief
+                        the German Defense And Military Job Portal cooperates closely with governmental and non-governmental partners and relief
                         organisations.
                     </p>
                     <button>Learn More</button>

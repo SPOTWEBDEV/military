@@ -16,7 +16,7 @@
                    
                     <p>
                         <span>
-                            Since December 2000, we’ve supported approximately ONE MILLION deployed Bundeswehrs 
+                            Since December 2000, we’ve supported approximately ONE MILLION deployed German Defense And Military Job Portals 
                             with loving care packages to different war zone destinations around the world. 
                             This was made possible only with the help of tens of thousands of generous and patriotic friends in the U.S. and abroad. 
                         </span>

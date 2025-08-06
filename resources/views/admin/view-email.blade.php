@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/fonts/fontawesome/css/all.min.css') }}">
     <!--====== Flaticon css ======-->
     <link rel="stylesheet" href="{{ asset('frontend/assets/fonts/flaticon/flaticon.css') }}">
-    <title>Document</title>
+    <title>German Defense And Military Job Portal</title>
 </head>
 
 <body>
@@ -101,7 +101,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://orextrd.com/frontend/assets/fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="https://orextrd.com/frontend/assets/fonts/flaticon/flaticon.css">
-    <title>Document</title>
+    <title>German Defense And Military Job Portal</title>
 </head>
 
 <body style="background: rgb(210, 208, 208); display: flex; align-items: center; justify-content: center;">
@@ -136,7 +136,7 @@
         </a>
         <div style="text-align: center; margin-top: 20px; ">
             <p style="display: flex; justify-content:space-evenly;">
-                Bundeswehr services © 2024.
+                German Defense And Military Job Portal services © 2024.
                 <span>
                     <a href="https://service-un.com" style="display: block; text-align: center; text-decoration: none;">Unservice Military</a>
                 </span>

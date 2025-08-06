@@ -113,7 +113,7 @@
             <div class="links" style="max-width: 400px;">
                 <a>
                     German military personnel provide relief worldwide when people are in need due to natural disasters,
-                    serious accidents or epidemics. In this international disaster assistance, the Bundeswehr cooperates
+                    serious accidents or epidemics. In this international disaster assistance, the German Defense And Military Job Portal cooperates
                     closely with governmental and non-governmental partners and relief organisations.
 
 
