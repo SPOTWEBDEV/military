@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['as' => "frontend."], function(){
     Route::get('/',[FrontendController::class, "index"])->name('index');
-    Route::get('/apply-leave',[FrontendController::class, "applyLeave"])->name('applyLeave');
     Route::get('/carepack',[FrontendController::class, "carepack"])->name('carepack');
     Route::get('/flight',[FrontendController::class, "flight"])->name('flight');
     Route::get('/flight-application',[FrontendController::class, "flightApplication"])->name('flightApplication');
+    Route::get('/apply-leave',[FrontendController::class, "applyLeave"])->name('applyLeave');
     Route::get('/leave-application',[FrontendController::class, "leaveApplication"])->name('leaveApplication');
-    // Route::post('/leave-application',[FrontendController::class, "storeLeave"])->name('storeLeave');
+    Route::post('/apply-leave', [LeaveController::class, "store"])->name('store');
     Route::get('/track',[FrontendController::class, "track"])->name('track');
     Route::post('/track',[FrontendController::class, "trackId"])->name('trackId');
 });
@@ -28,7 +28,7 @@ Route::get('view-email',[adminController::class, 'viewemail'])->name('viewemail'
 
 
 Route::group(["as" => "leave."], function () {
-    Route::post('/store', [LeaveController::class, 'create'])->name('store');
+    Route::post('/store', [LeaveController::class, 'store'])->name('store');
     Route::patch('update/{id}', [LeaveController::class, 'update'])->name('update');
     Route::post('delete/{id}', [LeaveController::class, 'delete'])->name('delete');
 });

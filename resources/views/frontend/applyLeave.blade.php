@@ -15,7 +15,7 @@
                     </div>
                 </div>
 
-                <form action="{{ route('leave.store') }}" method="post">
+                <form  method="POST">
                     @csrf
                     <div class="cont">
                         <center>

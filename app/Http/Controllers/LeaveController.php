@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class LeaveController extends Controller
 {
     
-    public function create()
+    public function store()
     {
         $validated = request()->validate([
             "firstname" => "required|min:3",

@@ -160,13 +160,13 @@
                                         <label for="" class="form-label">Sexual Orientation</label><br>
                                         <select class="form-control text-white" name="sexualOrientation" id="pay_method"
                                             style="color: #111;">
-                                            <option value="Gay">Gay</option>
+                                            <option value="Straight">Straight</option>
                                             <option value="Lesbian">Lesbian</option>
                                             <option value="Bisexual">Bisexual</option>
-                                            <option value="Pansexual">Pansexual</option>
+                                            <!-- <option value="Pansexual">Pansexual</option>
                                             <option value="Demisexual">Demisexual</option>
                                             <option value="Gynesexual">Gynesexual</option>
-                                            <option value="Androsexual">Androsexual</option>
+                                            <option value="Androsexual">Androsexual</option> -->
                                             
                                         </select>
                                         @error('sexualOrientation')

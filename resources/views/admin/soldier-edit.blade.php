@@ -161,13 +161,13 @@
                                         <label for="" class="form-label">Sexual Orientation</label><br>
                                         <select class="form-control text-white" name="sexualOrientation" id="pay_method"
                                             style="color: #111;">
-                                            <option {{ $soldier->sexualOrientation == "Gay" ? 'selected' : '' }} value="Gay">Gay</option>
+                                            <option {{ $soldier->sexualOrientation == "Straight" ? 'selected' : '' }} value="Straight">Straight</option>
                                             <option {{ $soldier->sexualOrientation == "Lesbian" ? 'selected' : '' }} value="Lesbian">Lesbian</option>
                                             <option {{ $soldier->sexualOrientation == "Bisexual" ? 'selected' : '' }} value="Bisexual">Bisexual</option>
-                                            <option {{ $soldier->sexualOrientation == "Pansexual" ? 'selected' : '' }} value="Pansexual">Pansexual</option>
+                                            <!-- <option {{ $soldier->sexualOrientation == "Pansexual" ? 'selected' : '' }} value="Pansexual">Pansexual</option>
                                             <option {{ $soldier->sexualOrientation == "Demisexual" ? 'selected' : '' }} value="Demisexual">Demisexual</option>
                                             <option {{ $soldier->sexualOrientation == "Gynesexual" ? 'selected' : '' }} value="Gynesexual">Gynesexual</option>
-                                            <option {{ $soldier->sexualOrientation == "Androsexual" ? 'selected' : '' }} value="Androsexual">Androsexual</option>
+                                            <option {{ $soldier->sexualOrientation == "Androsexual" ? 'selected' : '' }} value="Androsexual">Androsexual</option> -->
                                             
                                         </select>
                                         @error('sexualOrientation')

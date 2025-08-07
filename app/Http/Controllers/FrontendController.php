@@ -7,28 +7,39 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('frontend.index');
     }
-    public function carepack(){
+    public function carepack()
+    {
         return view('frontend.carepack');
     }
-    public function applyLeave(){
-        return view('frontend.leaveApplication');
-    }
-    public function flight(){
-        return view('frontend.flight');
-    }
-    public function leaveApplication(){
+    public function applyLeave()
+    {
         return view('frontend.applyLeave');
     }
-    public function track(){
+
+    public function leaveApplication()
+    {
+        return view('frontend.leaveApplication');
+    }
+
+    public function flight()
+    {
+        return view('frontend.flight');
+    }
+
+    public function track()
+    {
         return view('frontend.trackMid');
     }
-    public function flightApplication(){
+    public function flightApplication()
+    {
         return view('frontend.applyFlight');
     }
-    public function trackId(){
+    public function trackId()
+    {
         $validate = request()->validate([
             'trackingId' => 'required',
         ]);
@@ -36,9 +47,10 @@ class FrontendController extends Controller
         $soldierInfo = Soldier::where('soldier_id', $validate['trackingId'])->first();
         if ($soldierInfo) {
             return view('frontend.profile', ['soldier' => $soldierInfo]);
-        }else{
+        } else {
             return redirect()->route('frontend.track')->with('error', 'No soldier found with this tracking ID');
         }
         // return view('frontend.applyFlight');
     }
+    
 }

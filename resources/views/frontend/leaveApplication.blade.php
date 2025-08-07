@@ -56,8 +56,8 @@
                 <div class="cont">
                     <p>Kindly tell us the duration you are applying for so that we can forward the necessary information to
                         you for the Leave processing department.</p>
-                    <a href="{{ route('frontend.leaveApplication') }}">
-                        <button>Apply Now</button>
+                    <a href="{{ route('frontend.applyLeave') }}">
+                        <button class="btn btn-primary">Apply Now</button>
                     </a>
                 </div>
             </div>
