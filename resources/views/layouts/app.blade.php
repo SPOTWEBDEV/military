@@ -31,15 +31,15 @@
 
 <body class="font-sans antialiased">
     <style>
-        #google_translate_element{
+        #google_translate_element {
             position: fixed !important;
             bottom: 30px;
             left: 20px;
         }
-        .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+
+        .VIpgJd-ZVi9od-l4eHX-hSRGPd {
             display: none !important;
         }
-
     </style>
 
     <nav class="{{ Route::is('frontend.index') ? 'leave-applictaion' : 'leave-applictaion ln' }}">
@@ -72,7 +72,10 @@
         </div>
         <div class="icons">
             <a href="#"><i class="bx bx-search"></i></a>
-            <a href="mailto:support@gdmbp.com"><i class="bx bx-envelope"></i></a>
+            <a href="mailto:support@gdmbp.com">
+                <i class="bx bx-envelope"></i>
+            </a>
+
             <div class="hamburger-container">
                 <div class="hamburger"></div>
             </div>
@@ -158,10 +161,17 @@
         </div> --}}
 
         <div class="box">
+            <h2>Contact Us</h2>
+            <div class="links">
+                <a href="https://mail.google.com/mail/?view=cm&to=support@gdmbp.com" target="_blank">
+                    Support@gdmbp.com
+                </a>
+            </div>
+
             <h2>Newsletter</h2>
 
             <input type="text" placeholder="Enter Your Email">
-            <button>SUSCRIBE</button>
+            <button onclick="alert('Thank you for sign with us')">SUSCRIBE</button>
             <div class="socials">
                 <a href="#">
                     <i class="bx-bx-facebook"></i>
