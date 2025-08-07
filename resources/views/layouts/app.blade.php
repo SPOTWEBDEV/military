@@ -57,7 +57,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{ route('frontend.applyLeave') }}">Leave / Vacation Application</a>
+                <a href="{{ route('frontend.leaveApplication') }}">Leave / Vacation Application</a>
             </li>
             <li>
                 <a href="{{ route('frontend.flight') }}">Book Flight</a>
@@ -94,7 +94,7 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('frontend.applyLeave') }}">Leave / Vacation Application</a>
+            <a href="{{ route('frontend.leaveApplication') }}">Leave / Vacation Application</a>
         </li>
         <li>
             <a href="{{ route('frontend.flight') }}">Book Flight</a>
