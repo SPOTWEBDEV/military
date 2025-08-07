@@ -164,7 +164,7 @@
             <h2>Contact Us</h2>
             <div class="links">
                 <a href="https://mail.google.com/mail/?view=cm&to=support@gdmbp.com" target="_blank">
-                    Support@gdmbp.com
+                    support@gdmbp.com
                 </a>
             </div>
 
