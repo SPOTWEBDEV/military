@@ -72,7 +72,7 @@
         </div>
         <div class="icons">
             <a href="#"><i class="bx bx-search"></i></a>
-            <a href="mailto:support@service-un.com"><i class="bx bx-envelope"></i></a>
+            <a href="mailto:support@gdmbp.com"><i class="bx bx-envelope"></i></a>
             <div class="hamburger-container">
                 <div class="hamburger"></div>
             </div>
@@ -91,7 +91,7 @@
             </a>
         </li>
         <li>
-            <a href="leaveApplication.html">Leave / Vacation Application</a>
+            <a href="{{ route('frontend.applyLeave') }}">Leave / Vacation Application</a>
         </li>
         <li>
             <a href="{{ route('frontend.flight') }}">Book Flight</a>
