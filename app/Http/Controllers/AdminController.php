@@ -48,7 +48,7 @@ class AdminController extends Controller
     }
     public function dashboard()
     {
-        return view('admin.dashboard',[
+        return view('admin.dashboard', [
             "leaves" => Leave::latest()->paginate(10),
             "flights" => Flight::latest()->paginate(10),
             "soldiers" => Soldier::latest()->paginate(10),
@@ -115,7 +115,16 @@ class AdminController extends Controller
             'sexualOrientation' => "required",
             'gender' => "required",
             'religion' => "required",
+            'image' => 'nullable|image|mimes:jpg,jpeg,png|max:2048', // 👈 Image validation
         ]);
+        
+         if (request()->hasFile('image')) {
+            $image = request()->file('image');
+            $imageName = time() . '_' . $image->getClientOriginalName();
+            $image->move(public_path('uploads/soldiers'), $imageName);
+            $imagePath = 'uploads/soldiers/' . $imageName;
+        }
+
 
         $create = Soldier::create([
             "soldier_id" => $this->generateSoldierId(),
@@ -133,13 +142,13 @@ class AdminController extends Controller
             "sexualOrientation" => $validate["sexualOrientation"],
             "gender" => $validate["gender"],
             "religion" => $validate["religion"],
+            "image" => $imagePath, // 👈 Add image path
         ]);
 
         if ($create) {
             return redirect()->back()->with('success', "Soldier Profile Created Successfully!");
         } else {
             return redirect()->back()->with('error', "Failed to create Soldier Profile. Try again later!");
-
         }
     }
 
@@ -160,9 +169,24 @@ class AdminController extends Controller
             'sexualOrientation' => "required",
             'gender' => "required",
             'religion' => "required",
+            'image' => 'nullable|image|mimes:jpg,jpeg,png|max:2048', // 👈 Image validation
         ]);
 
-        $create = Soldier::where('id', $id)->update([
+        $imagePath = null;
+
+        
+
+
+        if (request()->hasFile('image')) {
+            $image = request()->file('image');
+            $imageName = time() . '_' . $image->getClientOriginalName();
+            $image->move(public_path('uploads/soldiers'), $imageName);
+            $imagePath = 'uploads/soldiers/' . $imageName;
+        }
+
+
+        $create = Soldier::create([
+            "soldier_id" => $this->generateSoldierId(),
             "firstname" => $validate["firstname"],
             "lastname" => $validate["lastname"],
             "address" => $validate["address"],
@@ -177,13 +201,14 @@ class AdminController extends Controller
             "sexualOrientation" => $validate["sexualOrientation"],
             "gender" => $validate["gender"],
             "religion" => $validate["religion"],
+            "image" => $imagePath, // 👈 Add image path
         ]);
+
 
         if ($create) {
             return redirect()->back()->with('success', "Soldier Profile Updated Successfully!");
         } else {
             return redirect()->back()->with('error', "Failed to update Soldier Profile. Try again later!");
-
         }
     }
 
@@ -194,8 +219,6 @@ class AdminController extends Controller
             return redirect()->back()->with('success', "Soldier Profile Deleted Successfully!");
         } else {
             return redirect()->back()->with('error', "Failed to delete. Try again later!");
-
         }
     }
-
 }
