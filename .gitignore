@@ -14,3 +14,6 @@ yarn-error.log
 /.idea
 /.vscode
 /.zed
+.env
+/.env.backup
+/.env
