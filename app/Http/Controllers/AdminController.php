@@ -188,11 +188,21 @@ class AdminController extends Controller
 
 
 
-
         if (request()->hasFile('image')) {
             $image = request()->file('image');
             $imageName = time() . '_' . $image->getClientOriginalName();
-            $image->move(public_path('uploads/soldiers'), $imageName);
+
+            // Dynamically detect the correct public directory (even if it's named public_html)
+            $destinationPath = $_SERVER['DOCUMENT_ROOT'] . '/uploads/soldiers';
+
+            // Ensure the folder exists
+            if (!file_exists($destinationPath)) {
+                mkdir($destinationPath, 0755, true);
+            }
+
+            $image->move($destinationPath, $imageName);
+
+            // This path is what gets stored in the DB and used in asset()
             $imagePath = 'uploads/soldiers/' . $imageName;
         }
 
