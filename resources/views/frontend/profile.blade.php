@@ -1,109 +1,4 @@
-<!-- <style>
-    .profile-section header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding-bottom: 30px;
-    }
 
-    .profile-section header h1{
-        font-size: 30px;
-        color: var(--primary-color);
-    }
-
-
-    .profile-section .passport{
-        width: 30%;
-        height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size:15px;
-        border: 1px solid var(--black);
-        text-align: center;
-        cursor: pointer;
-        padding: 0 20px;
-        margin-bottom: 10px;
-    }
-
-    .profile-section form{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-        /* background: url('img/'); */
-    }
-
-    .profile-section form .cont{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 60%;
-        border: 1px solid var(--black);
-        padding: 50px;
-        background: url('img/white-paper4.jfif');
-        background-position: cover;
-    }
-
-    .profile-section form .cont .box{
-        display: flex;
-        /* flex-direction: row-reverse; */
-        gap: 30px;
-        justify-content: space-between;
-    }
-
-    .profile-section form .cont .box .bxl{
-        width: 65%;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .profile-section form .cont .box .bxc{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: space-between;
-    }
-
-    .profile-section form .cont .box .bxc span{
-        width: 100%;
-    }
-
-    .profile-section form .cont .box span{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        width: 50%;
-    }
-
-    .profile-section form .cont .box span label{
-        color: var(--primary-color);
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    .profile-section form .cont .box span input{
-        padding: 6px 10px;
-    }
-
-    .profile-section form .cont .box span select{
-        padding: 6px 10px;
-    }
-
-    .profile-section form .cont button{
-        padding: 15px 0;
-        color: var(--white);
-        background-color: var(--primary-color);
-        border: none;
-        margin-top: 20px;
-        font-size: 17px;
-    }
-
-</style> -->
 
 
 @extends('layouts.app')
@@ -131,7 +26,7 @@ Soldier Profile
                     {{-- Profile Image --}}
                     <div class="passport" style="margin-bottom: 20px;">
                     
-                        <img src="{{asset($soldier->image) }}" alt="Profile Picture of {{ $soldier->firstname }}" style="max-width: 150px; border-radius: 8px;">
+                        <img src="{{asset($soldier->image) }}" alt="Profile Picture of {{ $soldier->firstname }}" style="border-radius: 8px;">
                         
                     </div>
                     <div class="box fst">
