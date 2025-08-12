@@ -936,11 +936,20 @@ form{
     font-size:15px;
     margin-bottom: 10px;
 }
+.profile-section .passport1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+    margin-bottom: 10px;
+}
 
-.profile-section .passport img{
+.profile-section .passport1 img{
     width: 100%;
     height: 100%;
-    
+  
 }
 
 .profile-section form{
