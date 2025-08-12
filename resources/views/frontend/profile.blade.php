@@ -24,9 +24,9 @@ Soldier Profile
                         <h4>Personal Information</h4>
                     </header>
                     {{-- Profile Image --}}
-                    <div class="passport1" style="margin-bottom: 20px;">
+                    <div class="passport1" style="margin-bottom: 20px; width: 200px; height: 200px;">
                     
-                        <img src="{{asset($soldier->image) }}" alt="Profile Picture of {{ $soldier->firstname }}" style="border-radius: 8px;">
+                        <img src="{{asset($soldier->image) }}" alt="Profile Picture of {{ $soldier->firstname }}" style="border-radius: 8px; width: 200px; height: 200px;">
                         
                     </div>
                     <div class="box fst">
