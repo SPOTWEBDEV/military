@@ -1,0 +1,11 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Prevent infinite loop (allow direct access to 404.html)
+RewriteCond %{REQUEST_URI} !^/404\.html$
+
+# Redirect ALL requests to your 404.html with a 404 status
+RewriteRule ^.*$ /404.html [L,R=404]
+
+# Tell Apache to use your custom 404 page
+ErrorDocument 404 /404.html
